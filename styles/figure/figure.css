@@ -1,0 +1,94 @@
+figure {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 40px;
+  text-align: center;
+}
+figure .figure_line {
+  width: 10%;
+  height: 1vh;
+  background-color: #F5F5F5;
+}
+figure .figure_boxes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+figure .figure_box {
+  width: 20%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+figure .figure_box img {
+  width: 100%;
+  height: 100%;
+}
+figure .figure_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+@media (max-width: 448px) {
+  figure {
+    margin-top: 30px;
+    gap: 10px;
+  }
+  figure h2 {
+    font-size: 12px;
+  }
+  figure .figure_box {
+    gap: 7px;
+  }
+  figure .figure_box h3 {
+    font-size: 10px;
+  }
+  figure .figure_box p {
+    font-size: 7px;
+  }
+  figure .figure_icon {
+    gap: 5px;
+    font-size: 7px;
+  }
+}
+@media (min-width: 449px) and (max-width: 768px) {
+  figure {
+    margin-top: 50px;
+    gap: 20px;
+  }
+  figure h2 {
+    font-size: 17px;
+  }
+  figure .figure_box {
+    gap: 11px;
+  }
+  figure .figure_box h3 {
+    font-size: 14px;
+  }
+  figure .figure_box p {
+    font-size: 10px;
+  }
+  figure .figure_icon {
+    gap: 10px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  figure {
+    margin-top: 40px;
+    gap: 35px;
+  }
+  figure .figure_box {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=figure.css.map */

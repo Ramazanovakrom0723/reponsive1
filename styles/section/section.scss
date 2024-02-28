@@ -1,0 +1,46 @@
+section{
+    width: 100%;
+    height: 40vh;
+    background-color: #FEFEC9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    p{
+        width: 55%;
+    }
+    button{
+        padding: 15px 34px;
+        background-color: #FEFEC9;
+    }
+}
+
+@media (max-width: 448px) {
+    section p{
+        width: 55%;
+        font-size: 8px;
+    }
+    button{
+        padding: 7px 10px;
+        font-size: 7px;
+    }
+}   
+
+@media (min-width: 449px) and (max-width:768px) {
+    section p{
+        width: 55%;
+        font-size: 12px;
+    }
+    button{
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+}   
+@media (min-width:769px) and (max-width:1200px) {
+    section p{
+        width: 55%;
+        font-size: 15px;
+    }
+}   

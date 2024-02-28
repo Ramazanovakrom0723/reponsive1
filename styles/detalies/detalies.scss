@@ -1,0 +1,36 @@
+figcaption{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #7EC4BD;
+    text-align: center;
+    gap: 50px;
+    .figcaption_line{
+        width: 100px;
+        height: 2px;
+        border-radius: 5px;
+        background-color: #666666;
+    }
+    .figcaption_button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+
+    }
+    .figcaption_box{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        span{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

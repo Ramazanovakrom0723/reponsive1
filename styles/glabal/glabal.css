@@ -1,0 +1,22 @@
+@import url(../footer/footer.css);
+@import url(../header/header.css);
+@import url(../article/article.css);
+@import url(../aside/aside.css);
+@import url(../figure/figure.css);
+@import url(../section/section.css);
+@import url(../nav/nav.css);
+@import url(../summary/summary.css);
+@import url(../footer/footer.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+  font-family: sans-serif;
+}
+
+.container {
+  padding-left: 200px;
+  padding-right: 200px;
+}/*# sourceMappingURL=glabal.css.map */
